@@ -1,61 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Careers — INDUSTRIA</title>
-  <meta name="description" content="Careers at INDUSTRIA: join our solvent-based coatings manufacturing and R&D teams. Opportunities for engineers, chemists and operations professionals.">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers - ColorTech Coatings | Join Our Team</title>
+  <meta name="description" content="Work with ColorTech Coatings. Join our team of paint manufacturers and paint technicians. Competitive salaries, benefits, and growth opportunities.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/theme.css">
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to content</a>
-<header class="header" id="header">
-  <div class="container header__container">
-    <a href="../index.html" class="logo">INDUSTRIA</a>
-    <nav class="nav" aria-label="Primary Navigation">
-      <ul class="nav__menu">
-        <li><a href="../index.html" class="nav__link">Home</a></li>
-        <li><a href="about.html" class="nav__link">About Us</a></li>
-        <li class="nav__item nav__item--mega"><a href="products.html" class="nav__link">Products</a>
-          <div class="mega-menu" aria-hidden="true">
-            <div class="mega-menu__column"><h4>Coatings</h4><ul><li><a href="products.html#decorative">Decorative Paints</a></li><li><a href="products.html#protective">Protective Coatings</a></li></ul></div>
-            <div class="mega-menu__column"><h4>Applications</h4><ul><li><a href="industries.html#marine">Marine &amp; Offshore</a></li><li><a href="industries.html#infrastructure">Infrastructure</a></li></ul></div>
-            <div class="mega-menu__column"><h4>Technology</h4><ul><li><a href="research.html">R&amp;D &amp; Innovation</a></li><li><a href="sustainability.html">Sustainability</a></li></ul></div>
-          </div>
-        </li>
-        <li><a href="industries.html" class="nav__link">Industries</a></li>
-        <li><a href="research.html" class="nav__link">Research</a></li>
-        <li><a href="sustainability.html" class="nav__link">Sustainability</a></li>
-        <li><a href="global.html" class="nav__link">Global</a></li>
-        <li><a href="investors.html" class="nav__link">Investors</a></li>
-        <li><a href="careers.html" class="nav__link active">Careers</a></li>
-        <li><a href="contact.html" class="nav__link nav__link--btn">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="hamburger" id="hamburger" aria-label="Menu Toggle" aria-expanded="false"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<main id="main-content">
-  <section class="section">
-    <div class="container">
-      <h1>Careers</h1>
-      <p class="lead">Join a global team of scientists, engineers and commercial experts building next-generation coating systems.</p>
-      <div class="grid grid--2">
-        <div class="card"><img data-src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Team collaboration" class="lazy">
-          <h3>Culture &amp; Values</h3>
-          <p>We value safety, technical excellence and collaboration. We invest heavily in learning and career progression.</p>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+    <div class="container-lg">
+      <a class="navbar-brand fw-bold fs-4" href="../index.html">
+        <i class="bi bi-palette-fill text-danger me-2"></i>ColorTech
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="products.html#industrial">Industrial Coatings</a></li>
+              <li><a class="dropdown-item" href="products.html#decorative">Decorative Paints</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="white-label.html">White Label</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="manufacturing.html">Manufacturing</a></li>
+          <li class="nav-item"><a class="nav-link active" href="careers.html">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-danger ms-lg-3 mt-3 mt-lg-0 w-100 w-lg-auto">Request Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Page Hero -->
+    <section class="py-5 py-lg-7 bg-dark text-white">
+      <div class="container-lg">
+        <h1 class="display-4 fw-bold mb-3">Join Our Team</h1>
+        <p class="lead text-white-50">Shape the future of coatings at ColorTech</p>
+      </div>
+    </section>
+
+    <!-- Why Work With Us -->
+    <section class="py-5 py-lg-8">
+      <div class="container-lg">
+        <div class="text-center mb-5 pb-4">
+          <h2 class="display-5 fw-bold mb-3">Why Work at ColorTech?</h2>
         </div>
-        <div class="card"><img data-src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&auto=format&fit=crop" alt="Benefits" class="lazy">
-          <h3>Benefits</h3>
-          <p>Competitive compensation, health coverage and targeted development programs for technical staff.</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-5">
+                <div style="font-size: 48px; color: #dc3545; margin-bottom: 16px;">
+                  <i class="bi bi-graph-up"></i>
+                </div>
+                <h5 class="card-title fw-bold mb-3">Career Growth</h5>
+                <p class="card-text text-muted">
+                  Clear progression paths and skill development opportunities in a growing company.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-5">
+                <div style="font-size: 48px; color: #dc3545; margin-bottom: 16px;">
+                  <i class="bi bi-gift"></i>
+                </div>
+                <h5 class="card-title fw-bold mb-3">Competitive Benefits</h5>
+                <p class="card-text text-muted">
+                  Health insurance, retirement plans, and performance-based bonuses.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-5">
+                <div style="font-size: 48px; color: #dc3545; margin-bottom: 16px;">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h5 class="card-title fw-bold mb-3">Great Culture</h5>
+                <p class="card-text text-muted">
+                  Collaborative, innovative environment with respect for every team member.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-5">
+                <div style="font-size: 48px; color: #dc3545; margin-bottom: 16px;">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <h5 class="card-title fw-bold mb-3">Innovation</h5>
+                <p class="card-text text-muted">
+                  Work on cutting-edge formulations and manufacturing technologies.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="u-mt-16"><a href="#" class="btn btn--primary">View Open Positions</a></div>
+    </section>
+
+    <!-- Open Positions -->
+    <section class="py-5 py-lg-8 bg-light">
+      <div class="container-lg">
+        <div class="text-center mb-5 pb-4">
+          <h2 class="display-5 fw-bold mb-3">Open Positions</h2>
+          <p class="lead text-muted">We are looking for talented individuals to join our team</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold mb-2">Process Engineer</h5>
+                <p class="text-danger small fw-bold mb-3">
+                  <i class="bi bi-geo-alt me-1"></i>Manufacturing Division
+                </p>
+                <p class="card-text text-muted small mb-3">
+                  Lead optimization of manufacturing processes. Requires chemical engineering degree and 5+ years experience.
+                </p>
+                <a href="contact.html?job=process-engineer" class="btn btn-sm btn-danger fw-bold">Apply Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold mb-2">Quality Assurance Technician</h5>
+                <p class="text-danger small fw-bold mb-3">
+                  <i class="bi bi-geo-alt me-1"></i>Quality Control Lab
+                </p>
+                <p class="card-text text-muted small mb-3">
+                  Conduct product testing and maintain quality standards. Technical diploma in chemistry required.
+                </p>
+                <a href="contact.html?job=qa-tech" class="btn btn-sm btn-danger fw-bold">Apply Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold mb-2">Sales Executive</h5>
+                <p class="text-danger small fw-bold mb-3">
+                  <i class="bi bi-geo-alt me-1"></i>Sales & Marketing
+                </p>
+                <p class="card-text text-muted small mb-3">
+                  Build client relationships and meet sales targets. Excellent communication skills required.
+                </p>
+                <a href="contact.html?job=sales-exec" class="btn btn-sm btn-danger fw-bold">Apply Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 h-100 shadow-sm">
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold mb-2">R&D Chemist</h5>
+                <p class="text-danger small fw-bold mb-3">
+                  <i class="bi bi-geo-alt me-1"></i>Research & Development
+                </p>
+                <p class="card-text text-muted small mb-3">
+                  Develop new coating formulations. M.Sc Chemistry or equivalent with 3+ years experience.
+                </p>
+                <a href="contact.html?job=rd-chemist" class="btn btn-sm btn-danger fw-bold">Apply Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 py-lg-8 bg-dark text-white">
+      <div class="container-lg">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-8">
+            <h2 class="display-5 fw-bold mb-3">Don't See Your Role Listed?</h2>
+            <p class="lead text-white-50 mb-0">
+              Send us your resume and we'll keep it on file for future opportunities.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html?subject=career-inquiry" class="btn btn-danger btn-lg fw-bold">Send Your Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white border-top border-secondary py-5 mt-5">
+    <div class="container-lg">
+      <div class="row g-5 mb-5">
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3"><i class="bi bi-palette-fill text-danger me-2"></i>ColorTech</h5>
+          <p class="text-white-50 small">Premium industrial paint and coatings manufacturer.</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Products</h6>
+          <ul class="list-unstyled text-white-50 small">
+            <li class="mb-2"><a href="products.html#industrial" class="text-white-50 text-decoration-none">Industrial</a></li>
+            <li class="mb-2"><a href="products.html#decorative" class="text-white-50 text-decoration-none">Decorative</a></li>
+            <li class="mb-2"><a href="white-label.html" class="text-white-50 text-decoration-none">White Label</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Company</h6>
+          <ul class="list-unstyled text-white-50 small">
+            <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+            <li class="mb-2"><a href="manufacturing.html" class="text-white-50 text-decoration-none">Manufacturing</a></li>
+            <li class="mb-2"><a href="careers.html" class="text-white-50 text-decoration-none">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Contact</h6>
+          <ul class="list-unstyled text-white-50 small">
+            <li class="mb-2"><a href="tel:+18005724001" class="text-white-50 text-decoration-none">+1-800-PAINT-01</a></li>
+            <li class="mb-2"><a href="mailto:sales@colortech.example.com" class="text-white-50 text-decoration-none">sales@colortech.example.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6 text-white-50 small"><i class="bi bi-c-circle me-1"></i>2024 ColorTech Coatings. All rights reserved.</div>
+        <div class="col-md-6 text-md-end text-white-50 small">
+          <a href="#" class="text-white-50 text-decoration-none me-3">Privacy</a>
+          <a href="#" class="text-white-50 text-decoration-none">Terms</a>
+        </div>
+      </div>
     </div>
-  </section>
-</main>
-<footer class="footer"><div class="container footer__bottom">© 2026 Industria Global.</div></footer>
-<script defer src="../js/main.js"></script>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 </html>
