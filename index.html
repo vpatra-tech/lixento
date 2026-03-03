@@ -1,302 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Engineering Advanced Coating Solutions — Industria</title>
-  <meta name="description" content="Engineering advanced coating solutions for protective, industrial, automotive and decorative applications. ISO-certified manufacturer with global footprint and R&D-driven innovation.">
-  <link rel="canonical" href="https://www.industria-global.example/">
-  <link rel="icon" href="/favicon.ico">
-  <meta name="theme-color" content="#0B1F3A">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INDUSTRIA",
-    "url": "https://www.industria-global.example/",
-    "logo": "https://www.industria-global.example/assets/logo.png",
-    "description": "Solvent-based industrial paint and coatings manufacturer specializing in protective, epoxy and alkyd systems for infrastructure, marine and automotive sectors.",
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+1-800-555-0199",
-      "contactType": "customer service",
-      "areaServed": "Worldwide",
-      "availableLanguage": ["English"]
-    }],
-    "sameAs": ["https://www.linkedin.com/company/industria","https://twitter.com/industria"]
-  }
-  </script>
-  <meta name="keywords" content="industrial coatings, protective coatings, automotive paint, decorative paint, R&D, sustainable coatings">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChromaShield Coatings | Industrial Paint & Coatings Manufacturer</title>
+  <meta name="description" content="ChromaShield Coatings – Leading manufacturer of industrial paints, protective coatings, waterproofing solutions, and white-label paint manufacturing. ISO certified." />
+  <meta name="keywords" content="industrial paint manufacturer, coatings manufacturer, white label paint, protective coatings, solvent-based coatings, water-based coatings" />
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css" media="(max-width:1200px)">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
-<a class="skip-link" href="#main-content">Skip to content</a>
-<div class="announcement announcement--top" role="region" aria-label="Top announcement" aria-live="polite">
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav" aria-label="Main navigation">
   <div class="container">
-    <p>ISO 9001 &amp; ISO 14001 Certified • Global supply to 80+ countries • <a href="pages/investors.html">Investor Brief</a></p>
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-icon"><i class="bi bi-droplet-fill"></i></span>
+      <span class="brand-text">CHROMA<span class="brand-accent">SHIELD</span></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+          <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+            <li><a class="dropdown-item" href="products.html#industrial">Industrial Coatings</a></li>
+            <li><a class="dropdown-item" href="products.html#decorative">Decorative Paints</a></li>
+            <li><a class="dropdown-item" href="products.html#protective">Protective Coatings</a></li>
+            <li><a class="dropdown-item" href="products.html#waterproofing">Waterproofing Solutions</a></li>
+            <li><a class="dropdown-item" href="products.html#primers">Primers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="white-label.html">White Label</a></li>
+        <li class="nav-item"><a class="nav-link" href="manufacturing.html">Manufacturing</a></li>
+        <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-accent" href="contact.html#quote">Request Quote</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
 
-<header class="header" id="header">
-  <div class="container header__container">
-    <a href="index.html" class="logo">INDUSTRIA</a>
-
-    <nav class="nav" id="nav" aria-label="Primary Navigation">
-      <ul class="nav__menu">
-        <li><a href="index.html" class="nav__link active">Home</a></li>
-        <li><a href="pages/about.html" class="nav__link">About Us</a></li>
-
-        <li class="nav__item nav__item--mega">
-          <a href="pages/products.html" class="nav__link">Products</a>
-          <div class="mega-menu" aria-hidden="true">
-            <div class="mega-menu__column">
-              <h4>Coatings</h4>
-              <ul>
-                <li><a href="pages/products.html#decorative">Decorative Paints</a></li>
-                <li><a href="pages/products.html#protective">Protective Coatings</a></li>
-              </ul>
-            </div>
-            <div class="mega-menu__column">
-              <h4>Applications</h4>
-              <ul>
-                <li><a href="pages/industries.html#marine">Marine &amp; Offshore</a></li>
-                <li><a href="pages/industries.html#infrastructure">Infrastructure</a></li>
-              </ul>
-            </div>
-            <div class="mega-menu__column">
-              <h4>Technology</h4>
-              <ul>
-                <li><a href="pages/research.html">R&amp;D &amp; Innovation</a></li>
-                <li><a href="pages/sustainability.html">Sustainability</a></li>
-              </ul>
+<!-- ===== HERO ===== -->
+<header class="hero-section" role="banner">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative z-1">
+    <div class="row align-items-center min-vh-80">
+      <div class="col-lg-7">
+        <span class="hero-badge">ISO 9001:2015 Certified Manufacturer</span>
+        <h1 class="hero-title">Engineering Coatings That <span class="text-accent">Last Decades</span></h1>
+        <p class="hero-sub">Industrial paints, protective coatings, and white-label manufacturing solutions trusted by 500+ brands across 30+ countries.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="contact.html#quote" class="btn btn-accent btn-lg">Request a Quote</a>
+          <a href="products.html" class="btn btn-outline-light btn-lg">View Products</a>
+        </div>
+        <div class="hero-stats row mt-5 g-3">
+          <div class="col-4">
+            <div class="stat-item">
+              <span class="stat-num">25+</span>
+              <span class="stat-label">Years Experience</span>
             </div>
           </div>
-        </li>
-
-        <li><a href="pages/industries.html" class="nav__link">Industries</a></li>
-        <li><a href="pages/research.html" class="nav__link">Research &amp; Innovation</a></li>
-        <li><a href="pages/sustainability.html" class="nav__link">Sustainability</a></li>
-        <li><a href="pages/global.html" class="nav__link">Global Presence</a></li>
-        <li><a href="pages/investors.html" class="nav__link">Investors</a></li>
-        <li><a href="pages/careers.html" class="nav__link">Careers</a></li>
-        <li><a href="pages/contact.html" class="nav__link nav__link--btn">Contact</a></li>
-      </ul>
-    </nav>
-
-    <button class="hamburger" id="hamburger" aria-label="Menu Toggle" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+          <div class="col-4">
+            <div class="stat-item">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Brand Partners</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-item">
+              <span class="stat-num">10M+</span>
+              <span class="stat-label">Litres/Year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
-<main id="main-content">
-  <section class="hero hero--fullpage" id="home">
-    <div class="hero__media" style="background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1600&auto=format&fit=crop');">
-      <img data-src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1600&auto=format&fit=crop" alt="Industrial coating application" class="hero__img lazy">
-      <div class="hero__color-overlay"></div>
-      <div class="hero__overlay"></div>
-    </div>
-    <div class="hero__content container hero__content--center">
-      <h1>Advanced Coating Solutions, Engineered for Life</h1>
-      <p>Durable solvent-based enamel and epoxy systems — specified with field-proven performance and long-term value.</p>
-      <div class="hero__actions">
-        <a href="pages/products.html" class="btn btn--primary btn--lg">Explore Products</a>
-        <a href="pages/contact.html" class="btn btn--secondary btn--lg">Contact Sales</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="intro section" id="about">
-    <div class="container">
-      <h2>Building Industrial Coatings Excellence Since 1975</h2>
-      <p>INDUSTRIA combines deep materials science expertise with large-scale manufacturing to deliver coatings that extend asset life, reduce maintenance cost and support circular, low-carbon operations.</p>
-    </div>
-  </section>
-
-  <section class="products section" id="products">
-    <div class="container">
-      <h2>Key Product Categories</h2>
-      <div class="grid grid--4">
-        <article class="card reveal">
-          <img data-src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" alt="Decorative coatings" class="lazy">
-          <h3>Decorative Coatings</h3>
-          <p>High-opacity, fade-resistant paints for residential and commercial interiors and exteriors with low-VOC formulations.</p>
-        </article>
-        <article class="card reveal">
-          <img data-src="https://images.unsplash.com/photo-1581094654516-6f9d6c49b1b5?q=80&w=1200&auto=format&fit=crop" alt="Industrial plant coatings" class="lazy">
-          <h3>Industrial Coatings</h3>
-          <p>Solvent-borne enamel and epoxy systems formulated for plant equipment, machinery and heavy industrial environments.</p>
-        </article>
-        <article class="card reveal">
-          <img data-src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop" alt="Automotive paint finish" class="lazy">
-          <h3>Automotive Coatings</h3>
-          <p>Advanced finishes and primers meeting OEM specifications for appearance, corrosion and chemical resistance.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Protective Coatings</h3>
-          <p>Long-life corrosion and abrasion resistant systems for infrastructure, marine and oil &amp; gas applications.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="why section section--light" id="why">
-    <div class="container">
-      <h2>Why Choose INDUSTRIA</h2>
-      <div class="grid grid--3">
-        <div class="card reveal">
-          <h3>Technology Leadership</h3>
-          <p>Proprietary polymer chemistries and multi-disciplinary R&amp;D drive superior coating performance and lifecycle value.</p>
-        </div>
-        <div class="card reveal">
-          <h3>Durability &amp; Field Performance</h3>
-          <p>Products validated through accelerated lab testing and real-world projects under ASTM and ISO standards.</p>
-        </div>
-        <div class="card reveal">
-          <h3>Manufacturing Scale</h3>
-          <p>25 global manufacturing units with stringent quality controls and rapid regional distribution capabilities.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="industries section" id="industries">
-    <div class="container">
-      <h2>Industries We Serve</h2>
-      <div class="grid grid--4">
-        <div class="card reveal"><h3>Infrastructure</h3><p>Coatings for bridges, tunnels and critical public assets.</p></div>
-        <div class="card reveal"><h3>Marine &amp; Offshore</h3><p>High-performance anti-corrosive systems for harsh sea environments.</p></div>
-        <div class="card reveal"><h3>Automotive &amp; Transport</h3><p>OEM-aligned finishes and robust primers.</p></div>
-        <div class="card reveal"><h3>Real Estate &amp; Commercial</h3><p>Aesthetic, durable solutions for commercial properties.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="sustainability section section--dark" id="sustainability">
-    <div class="container">
-      <h2>Our Sustainability Commitment</h2>
-      <p>We aim to reduce lifecycle emissions through low-VOC chemistries, recycled content and energy-efficient manufacturing. Certified processes ensure environmental compliance across regions.</p>
-      <div class="grid grid--3">
-        <div class="card"><img data-src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop" alt="Low VOC" class="lazy"><h3>Low-VOC Formulations</h3></div>
-        <div class="card"><img data-src="https://images.unsplash.com/photo-1509395280975-98ff2c10e996?q=80&w=1200&auto=format&fit=crop" alt="Energy efficient plant" class="lazy"><h3>Energy Efficiency</h3></div>
-        <div class="card"><img data-src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1200&auto=format&fit=crop" alt="Recycled materials" class="lazy"><h3>Recycled Content</h3></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="global section" id="global">
-    <div class="container">
-      <h2>Global Presence</h2>
-      <p>Serving customers across 80+ countries from regional hubs with localized warehousing and technical support.</p>
-      <div class="grid grid--4 stats--light">
-        <div class="stat reveal"><h3 class="counter" data-target="80">0</h3><p>Countries</p></div>
-        <div class="stat reveal"><h3 class="counter" data-target="25">0</h3><p>Manufacturing Units</p></div>
-        <div class="stat reveal"><h3 class="counter" data-target="5000">0</h3><p>Employees</p></div>
-        <div class="stat reveal"><h3 class="counter" data-target="1200">0</h3><p>Global Clients</p></div>
-      </div>
-    </div>
-  </section>
-  <section class="investors section" id="investors">
-    <div class="container">
-      <h2>Investor Highlights</h2>
-      <div class="grid grid--2">
-        <div class="card">
-          <p><strong>Revenue Growth:</strong> 18% CAGR (3 years)</p>
-          <p><strong>EBITDA Margin:</strong> 22%</p>
-          <p><strong>R&amp;D Investment:</strong> 4.3% of revenue</p>
-        </div>
-        <div class="card">
-          <p>Robust balance sheet with strategic investments in scale-up manufacturing and sustainable product lines.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="news section section--light" style="display: none;">
-    <div class="container">
-      <h2>News &amp; Media</h2>
-      <ul class="news-list">
-        <li><a href="#">INDUSTRIA launches next-gen low-VOC protective coating</a> <span class="meta">Feb 2026</span></li>
-        <li><a href="#">New manufacturing hub opens in Rotterdam</a> <span class="meta">Jan 2026</span></li>
-      </ul>
-    </div>
-  </section>
-  <section class="cta cta--subtle" aria-label="Contact Sales">
-    <div class="container">
-      <div class="cta__wrap">
-        <div class="cta__content">
-          <h2>Partner with INDUSTRIA — Tailored Coating Systems</h2>
-          <p>Work with our technical sales and application engineers to specify systems that maximise uptime and lower total cost of ownership.</p>
-          <div class="cta__bullets">
-            <div class="cta__bullet"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><div><strong>End-to-end support</strong><div class="cta__desc">Specification, trials and field validation</div></div></div>
-            <div class="cta__bullet"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><div><strong>Global supply</strong><div class="cta__desc">Regional hubs and rapid distribution</div></div></div>
-            <div class="cta__bullet"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><div><strong>Field-proven systems</strong><div class="cta__desc">ASTM/ISO-tested for long-term performance</div></div></div>
-          </div>
-          <div class="cta__actions">
-            <a href="pages/contact.html" class="btn btn--primary">Contact Sales</a>
-            <a href="/assets/INDUSTRIA_Technical_Brochure.pdf" class="btn btn--outline-light">Download Brochure</a>
+<!-- ===== ABOUT BRIEF ===== -->
+<section class="py-section bg-white" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="img-block">
+          <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=700&q=80" alt="ChromaShield manufacturing facility interior" class="img-fluid rounded-2 shadow" />
+          <div class="img-badge">
+            <i class="bi bi-award-fill text-accent fs-3"></i>
+            <div>
+              <strong>ISO 9001:2015</strong><br>
+              <small>Quality Certified</small>
+            </div>
           </div>
         </div>
-        <aside class="cta__form" aria-labelledby="cta-form-heading">
-          <h3 id="cta-form-heading" style="color:var(--color-white);margin-bottom:8px">Request a Quote</h3>
-          <form id="ctaForm" novalidate>
-            <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your full name" required></div>
-            <div class="form-field"><label for="company">Company</label><input id="company" name="company" type="text" placeholder="Company name"></div>
-            <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="name@company.com" required></div>
-            <div class="form-field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="+1 555 555 5555"></div>
-            <div class="form-field"><label for="message">Project details</label><textarea id="message" name="message" rows="3" placeholder="Short description (substrate, area, environment)"></textarea></div>
-            <div class="form-actions"><button type="submit" class="btn btn--primary">Request Quote</button><button type="button" class="btn btn--outline-light" id="ctaClear">Clear</button></div>
-            <div id="ctaSuccess" class="form-success" role="status" aria-live="polite" style="display:none">Thank you — your request has been received. Our team will contact you within 2 business days.</div>
-          </form>
-        </aside>
       </div>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container grid grid--4 footer__top">
-    <div>
-      <h4>INDUSTRIA</h4>
-      <p>Engineering advanced coating solutions for a stronger tomorrow.</p>
-    </div>
-    <div>
-      <h4>Products</h4>
-      <ul>
-        <li><a href="pages/products.html#decorative">Decorative</a></li>
-        <li><a href="pages/products.html#protective">Protective</a></li>
-        <li><a href="pages/products.html#automotive">Automotive</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Resources</h4>
-      <ul>
-        <li><a href="pages/research.html">R&amp;D</a></li>
-        <li><a href="pages/sustainability.html">Sustainability</a></li>
-        <li><a href="pages/investors.html">Investors</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Contact</h4>
-      <ul>
-        <li><a href="pages/contact.html">Global Offices</a></li>
-        <li><a href="#">support@industria.com</a></li>
-      </ul>
+      <div class="col-lg-6">
+        <span class="section-label">Who We Are</span>
+        <h2 id="about-heading" class="section-title">A Trusted Name in Industrial Coatings Manufacturing</h2>
+        <p class="text-secondary">ChromaShield Coatings is a vertically integrated paint and coatings manufacturer with over 25 years of expertise in formulating high-performance solvent-based, water-based, and specialty coating systems.</p>
+        <p class="text-secondary">Our state-of-the-art facility produces over 10 million litres annually — serving OEM partners, industrial clients, contractors, and white-label brands globally.</p>
+        <ul class="feature-list mt-4">
+          <li><i class="bi bi-check-circle-fill text-accent"></i> Fully equipped R&D and quality control laboratory</li>
+          <li><i class="bi bi-check-circle-fill text-accent"></i> Compliant with national and international standards</li>
+          <li><i class="bi bi-check-circle-fill text-accent"></i> End-to-end white-label & private label solutions</li>
+          <li><i class="bi bi-check-circle-fill text-accent"></i> Bulk and retail supply with flexible MOQ</li>
+        </ul>
+        <a href="about.html" class="btn btn-primary mt-4">Learn About Us</a>
+      </div>
     </div>
   </div>
-  <div class="container footer__bottom">
-    <div class="grid grid--2">
-      <div>© 2026 Industria Global. All rights reserved.</div>
-      <div class="social">Designed for industrial leaders</div>
+</section>
+
+<!-- ===== PRODUCT CATEGORIES ===== -->
+<section class="py-section bg-light" aria-labelledby="products-heading">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Our Product Range</span>
+      <h2 id="products-heading" class="section-title">Coatings for Every Application</h2>
+      <p class="text-secondary col-lg-6 mx-auto">From heavy-duty industrial coatings to decorative wall paints — we manufacture a comprehensive range to meet every project requirement.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Product Cards -->
+      <div class="col-sm-6 col-lg-4">
+        <a href="products.html#industrial" class="product-card card h-100 text-decoration-none">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-gear-fill"></i></div>
+            <h3 class="card-title h5 mt-3">Industrial Coatings</h3>
+            <p class="card-text text-secondary small">High-performance epoxy, polyurethane, and alkyd systems for machinery, steel structures, and plant facilities.</p>
+            <span class="link-more">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <a href="products.html#decorative" class="product-card card h-100 text-decoration-none">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-house-fill"></i></div>
+            <h3 class="card-title h5 mt-3">Decorative Paints</h3>
+            <p class="card-text text-secondary small">Interior and exterior emulsions, enamels, and texture finishes for residential and commercial projects.</p>
+            <span class="link-more">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <a href="products.html#protective" class="product-card card h-100 text-decoration-none">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-shield-fill-check"></i></div>
+            <h3 class="card-title h5 mt-3">Protective Coatings</h3>
+            <p class="card-text text-secondary small">Anti-corrosion, fire-retardant, and chemical-resistant coatings for critical infrastructure and marine environments.</p>
+            <span class="link-more">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <a href="products.html#waterproofing" class="product-card card h-100 text-decoration-none">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-water"></i></div>
+            <h3 class="card-title h5 mt-3">Waterproofing Solutions</h3>
+            <p class="card-text text-secondary small">Acrylic, polyurethane, and cementitious waterproofing systems for roofs, basements, and wet areas.</p>
+            <span class="link-more">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <a href="products.html#primers" class="product-card card h-100 text-decoration-none">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-layers-fill"></i></div>
+            <h3 class="card-title h5 mt-3">Primers & Undercoats</h3>
+            <p class="card-text text-secondary small">Metal, wood, and masonry primers that deliver superior adhesion and long-term surface protection.</p>
+            <span class="link-more">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <a href="white-label.html" class="product-card card h-100 text-decoration-none card-accent">
+          <div class="card-body p-4">
+            <div class="product-icon"><i class="bi bi-tag-fill"></i></div>
+            <h3 class="card-title h5 mt-3">White Label Manufacturing</h3>
+            <p class="card-text text-secondary small">Build your own paint brand. We manufacture, you brand. Complete OEM/ODM solutions with custom packaging.</p>
+            <span class="link-more">Learn More <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a href="products.html" class="btn btn-primary btn-lg">View All Products</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="py-section bg-dark-navy text-white" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label text-accent">Our Strengths</span>
+      <h2 id="why-heading" class="section-title text-white">Why Industry Leaders Choose ChromaShield</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3">
+        <div class="why-card text-center p-4">
+          <i class="bi bi-flask-fill why-icon"></i>
+          <h3 class="h5 mt-3 fw-600">Advanced R&D</h3>
+          <p class="text-secondary small">In-house lab with 20+ chemists developing proprietary formulations and continuously improving product performance.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="why-card text-center p-4">
+          <i class="bi bi-patch-check-fill why-icon"></i>
+          <h3 class="h5 mt-3 fw-600">Strict Quality Control</h3>
+          <p class="text-secondary small">Every batch tested against ISO, BIS, and client-specific standards before dispatch. Zero compromise on quality.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="why-card text-center p-4">
+          <i class="bi bi-building-fill why-icon"></i>
+          <h3 class="h5 mt-3 fw-600">Scale Manufacturing</h3>
+          <p class="text-secondary small">10M+ litre annual capacity across multiple production lines with flexible batch sizing and on-time delivery.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="why-card text-center p-4">
+          <i class="bi bi-box-seam-fill why-icon"></i>
+          <h3 class="h5 mt-3 fw-600">White Label Ready</h3>
+          <p class="text-secondary small">Full OEM support — formulation, filling, labeling, and packaging under your brand with low MOQ options.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="py-section bg-white" aria-labelledby="certs-heading">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Compliance & Certifications</span>
+      <h2 id="certs-heading" class="section-title">Certified to Global Standards</h2>
+    </div>
+    <div class="row g-4 justify-content-center text-center">
+      <div class="col-6 col-md-3">
+        <div class="cert-card">
+          <i class="bi bi-award cert-icon"></i>
+          <h4 class="h6 mt-2 fw-600">ISO 9001:2015</h4>
+          <p class="text-secondary small mb-0">Quality Management</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-card">
+          <i class="bi bi-leaf cert-icon"></i>
+          <h4 class="h6 mt-2 fw-600">ISO 14001:2015</h4>
+          <p class="text-secondary small mb-0">Environmental Management</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-card">
+          <i class="bi bi-person-check cert-icon"></i>
+          <h4 class="h6 mt-2 fw-600">OHSAS 18001</h4>
+          <p class="text-secondary small mb-0">Occupational Health & Safety</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-card">
+          <i class="bi bi-globe2 cert-icon"></i>
+          <h4 class="h6 mt-2 fw-600">BIS Certified</h4>
+          <p class="text-secondary small mb-0">Bureau of Indian Standards</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLIENT LOGOS ===== -->
+<section class="py-section bg-light" aria-labelledby="clients-heading">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Trusted By</span>
+      <h2 id="clients-heading" class="section-title">Brands That Trust ChromaShield</h2>
+    </div>
+    <div class="row g-4 align-items-center justify-content-center">
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND A</span></div>
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND B</span></div>
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND C</span></div>
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND D</span></div>
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND E</span></div>
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <div class="client-logo-box"><span class="client-placeholder">BRAND F</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT CTA BANNER ===== -->
+<section class="cta-banner py-5" aria-label="Contact call to action">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <h2 class="text-white mb-1 fw-bold">Ready to Start Your Project or Partnership?</h2>
+        <p class="text-white-50 mb-0">Talk to our technical team for product recommendations, pricing, or white-label inquiries.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end d-flex gap-3 justify-content-lg-end flex-wrap">
+        <a href="contact.html#quote" class="btn btn-accent btn-lg">Get a Quote</a>
+        <a href="tel:+911234567890" class="btn btn-outline-light btn-lg"><i class="bi bi-telephone-fill me-2"></i>Call Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer bg-dark-navy text-white pt-5 pb-3" role="contentinfo">
+  <div class="container">
+    <div class="row g-4 mb-4">
+      <div class="col-lg-4 col-md-6">
+        <a class="navbar-brand mb-3 d-inline-block" href="index.html">
+          <span class="brand-icon"><i class="bi bi-droplet-fill"></i></span>
+          <span class="brand-text">CHROMA<span class="brand-accent">SHIELD</span></span>
+        </a>
+        <p class="text-secondary small">A trusted industrial paint and coatings manufacturer delivering high-performance solutions for over 25 years.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" aria-label="LinkedIn" class="social-link"><i class="bi bi-linkedin"></i></a>
+          <a href="#" aria-label="Facebook" class="social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="YouTube" class="social-link"><i class="bi bi-youtube"></i></a>
+          <a href="#" aria-label="Twitter" class="social-link"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Company</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="manufacturing.html">Manufacturing</a></li>
+          <li><a href="white-label.html">White Label</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-heading">Products</h5>
+        <ul class="footer-links">
+          <li><a href="products.html#industrial">Industrial Coatings</a></li>
+          <li><a href="products.html#decorative">Decorative Paints</a></li>
+          <li><a href="products.html#protective">Protective Coatings</a></li>
+          <li><a href="products.html#waterproofing">Waterproofing Solutions</a></li>
+          <li><a href="products.html#primers">Primers</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-heading">Contact</h5>
+        <ul class="footer-contact">
+          <li><i class="bi bi-geo-alt-fill"></i><span>Plot 42, Industrial Area, Phase 2, Mumbai – 400703</span></li>
+          <li><i class="bi bi-telephone-fill"></i><a href="tel:+911234567890">+91 123 456 7890</a></li>
+          <li><i class="bi bi-envelope-fill"></i><a href="mailto:info@chromashield.com">info@chromashield.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="text-secondary small mb-0">&copy; 2025 ChromaShield Coatings. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="#" class="text-secondary small me-3">Privacy Policy</a>
+        <a href="#" class="text-secondary small">Terms of Use</a>
+      </div>
     </div>
   </div>
 </footer>
 
-<script defer src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
